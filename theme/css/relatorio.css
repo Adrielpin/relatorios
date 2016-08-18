@@ -1,0 +1,84 @@
+.capa{
+   display:none;
+}
+
+@media only screen and (max-width: 1920px) {   
+   .border{
+      background-color: white;
+      margin-top: 15px;
+   }
+   .grafico{
+      zoom: 150%;
+   }
+
+   .title{
+      width: 100%;
+      min-height: 40px;
+      text-align: center;
+      display:table;
+   }
+
+   .title h1{
+      font-size: 14pt;
+      color: #5b5b5f;
+      display:table-cell;
+      vertical-align:middle;
+      background-color: #c2c3c9;
+      background-image: url('../img/BarraSuperior.png');
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size:contain;
+   }
+
+   .borda h5{
+      font-size: 12pt;
+      color: #5b5b5f;
+      display: block;
+      text-align: center;
+   }
+
+   .foot{
+      display: none;
+   }
+}
+
+@media only screen and (max-width: 1366px) {
+   .grafico{
+      zoom: 100%;
+   }
+
+   .border{
+      background-color: white;
+      margin-top: 15px;
+   }
+
+   .title{
+      width: 100%;
+      min-height: 40px;
+      text-align: center;
+      display:table;
+   }
+
+   .title h1{
+      font-size: 14pt;
+      color: #5b5b5f;
+      display:table-cell;
+      vertical-align:middle;
+      background-color: #c2c3c9;
+      background-image: url('../img/BarraSuperior.png');
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size:contain;
+   }
+
+   .borda h5{
+      font-size: 12pt;
+      color: #5b5b5f;
+      display: block;
+      text-align: center;
+   }
+
+   .foot{
+      display: none;
+   }
+}

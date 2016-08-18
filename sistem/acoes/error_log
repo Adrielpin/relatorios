@@ -1,0 +1,54 @@
+[22-Jul-2016 10:22:38 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [SelectorError.INVALID_PREDICATE_VALUE @ serviceSelector] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/AdGroupService.php(7426): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAdGroups.php(28): AdGroupService->get(Object(Selector))
+#4 {main}
+  thrown in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 10:35:24 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [SelectorError.INVALID_PREDICATE_VALUE @ serviceSelector] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/AdGroupCriterionService.php(10404): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetKeywords.php(30): AdGroupCriterionService->get(Object(Selector))
+#4 {main}
+  thrown in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[25-Jul-2016 09:25:43 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CUSTOMER_NOT_FOUND @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/CampaignService.php(8046): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetCampaignsTeste.php(21): CampaignService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetCampaignsTeste.php(7): testeCamp('7590307622')
+#5 {main}
+  thrown in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[25-Jul-2016 09:26:16 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CUSTOMER_NOT_FOUND @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/CampaignService.php(8046): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetCampaignsTeste.php(21): CampaignService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetCampaignsTeste.php(7): testeCamp('7590307622')
+#5 {main}
+  thrown in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[25-Jul-2016 11:26:24 America/Sao_Paulo] PHP Notice:  Undefined index: conta in /home/clinks/public_html/relatorio/sistem/acoes/GetCampaigns.php on line 11
+[25-Jul-2016 11:26:24 America/Sao_Paulo] PHP Notice:  Undefined index: rede in /home/clinks/public_html/relatorio/sistem/acoes/GetCampaigns.php on line 12
+[25-Jul-2016 11:26:28 America/Sao_Paulo] PHP Notice:  Undefined index: conta in /home/clinks/public_html/relatorio/sistem/acoes/GetCampaigns.php on line 11
+[25-Jul-2016 11:26:28 America/Sao_Paulo] PHP Notice:  Undefined index: rede in /home/clinks/public_html/relatorio/sistem/acoes/GetCampaigns.php on line 12
+[25-Jul-2016 11:26:30 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/CampaignService.php(8046): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetCampaigns.php(31): CampaignService->get(Object(Selector))
+#4 {main}
+  thrown in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[25-Jul-2016 11:26:33 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/CampaignService.php(8046): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetCampaigns.php(31): CampaignService->get(Object(Selector))
+#4 {main}
+  thrown in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216

@@ -1,0 +1,170 @@
+*{
+  font-family: "Myriad Pro", "Myriad", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  margin: 0 auto
+}
+
+.cubo{
+  margin-top: 150px;
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cubo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+@media screen{
+  .corpo{
+    width: 100%;
+    height:100%;
+  }
+
+  .head{
+    width: 100%;
+    height: 90px;
+
+
+  }
+
+  .head-2{
+    height: 40px; 
+    width: 100%;
+    min-height: 40px;
+    text-align: center;
+    display:table;
+  }
+  
+  .head-2 h1{
+   font-size: 1.0em;
+   color:white;
+   display:table-cell;
+   vertical-align:middle;
+ }
+
+ .conteudo{
+  width: 100%;
+  height: calc(100% - 90px);
+  background-image: url('../img/background.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size:contain;
+}
+
+.col-1{
+  width: 50px;
+  height: 100%; 
+  float: left;
+  position: relative;
+  background-color: #C2C3C9;
+}
+
+.col-2{
+  width: 204px;
+  height: 100%;
+  float: left;
+}
+
+.col-3{
+  margin: 0px auto 0px auto;
+  width: auto;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.acoes_filtro{
+  width: 180px;
+  margin: 20px auto 0 auto;
+}
+
+.acoes_filtro select{
+  width: 180px;
+}
+
+.footer{
+  width: 180px;
+  margin: 5px auto 0 auto;
+}
+
+.selector{
+  height: 5px; 
+  width: 32px; 
+  margin: 2 auto 18 auto;
+}
+
+
+.usuarios_filtro{
+  width: 180px;
+  margin: 13px auto 0 auto;
+}
+
+.usuarios_filtro input[type=text]{
+  width: 180px;
+  height: 20px;
+  border:solid 1px #87868A;
+  color:#87868A;
+  margin: 7 0 7 0;
+}
+
+.title{
+ width: 100%;
+ min-height: 40px;
+ text-align: center;
+ display:table;
+ background-color: #c2c3c9;
+}
+
+.title h1{
+ font-size: 1.0em;
+ color:white;
+ display:table-cell;
+ vertical-align:middle
+}
+
+.title-proj{
+ width: 100%;
+ min-height: 40px;
+ text-align: center;
+ display:table;
+ background-color: #116e3a;
+}
+
+.title-proj h1{
+ font-size: 1.0em;
+ color:white;
+ display:table-cell;
+ vertical-align:middle
+}
+
+#Progress {
+    position: relative;
+    border-left: 2px;
+    border-right: 2px;
+    width: 50%;
+    height: 30px;
+    background-color: #b3b3b3;
+}
+
+#Bar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+}
+
+#labelBar {
+    text-align: center; /* If you want to center it */
+    line-height: 30px; /* Set the line-height to the same as the height of the progress bar container, to center it vertically */
+    color: white;
+}
+
+}

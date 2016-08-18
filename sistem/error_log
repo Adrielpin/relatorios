@@ -1,0 +1,1201 @@
+[21-Jul-2016 17:48:31 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[21-Jul-2016 17:48:31 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[21-Jul-2016 17:48:31 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[21-Jul-2016 17:48:31 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[21-Jul-2016 17:48:36 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[21-Jul-2016 18:02:33 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[21-Jul-2016 18:02:33 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[21-Jul-2016 18:02:33 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[21-Jul-2016 18:02:33 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[21-Jul-2016 18:02:45 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[21-Jul-2016 18:04:34 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[21-Jul-2016 18:04:34 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[21-Jul-2016 18:04:34 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[21-Jul-2016 18:04:34 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[21-Jul-2016 18:04:38 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[21-Jul-2016 18:04:53 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[21-Jul-2016 18:04:53 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[21-Jul-2016 18:04:53 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[21-Jul-2016 18:04:53 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[21-Jul-2016 18:04:57 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[21-Jul-2016 18:06:38 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[21-Jul-2016 18:06:38 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[21-Jul-2016 18:06:38 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[21-Jul-2016 18:06:38 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[21-Jul-2016 18:06:42 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[21-Jul-2016 18:55:13 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[21-Jul-2016 19:30:39 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[21-Jul-2016 19:30:39 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[21-Jul-2016 19:30:39 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[21-Jul-2016 19:30:39 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[21-Jul-2016 19:30:42 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[21-Jul-2016 19:30:57 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[21-Jul-2016 19:30:57 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[21-Jul-2016 19:30:57 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[21-Jul-2016 19:30:57 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[21-Jul-2016 19:31:01 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[21-Jul-2016 19:31:16 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[21-Jul-2016 19:31:16 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[21-Jul-2016 19:31:16 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[21-Jul-2016 19:31:16 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[21-Jul-2016 19:31:20 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[21-Jul-2016 19:33:01 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[21-Jul-2016 19:33:01 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[21-Jul-2016 19:33:01 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[21-Jul-2016 19:33:01 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[21-Jul-2016 19:33:06 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 07:32:28 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 07:32:28 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 07:32:28 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 07:32:28 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 07:32:32 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 07:32:49 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 07:32:49 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 07:32:49 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 07:32:49 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 07:32:53 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 07:33:07 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 07:33:07 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 07:33:07 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 07:33:07 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 07:33:10 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 07:33:39 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 07:33:39 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 07:33:39 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 07:33:39 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 07:33:43 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 07:33:56 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 07:33:56 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 07:33:56 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 07:33:56 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 07:33:59 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 07:34:35 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 07:34:35 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 07:34:35 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 07:34:35 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 07:34:39 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 07:34:49 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 07:34:49 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 07:34:49 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 07:34:49 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 07:34:53 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 07:35:03 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 07:35:03 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 07:35:03 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 07:35:03 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 07:35:07 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 07:35:35 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 07:35:35 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 07:35:35 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 07:35:35 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 07:35:38 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 07:36:38 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 07:36:38 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 07:36:38 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 07:36:38 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 07:36:42 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 07:36:57 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 07:36:57 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 07:36:57 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 07:36:57 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 07:37:01 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 07:37:35 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 07:37:35 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 07:37:35 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 07:37:35 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 07:37:39 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 09:57:07 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 10:02:16 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 10:23:55 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 11:26:29 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 14:06:51 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 15:44:32 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 16:44:01 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 17:35:00 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 17:37:36 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 17:41:32 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 17:48:15 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 21:11:34 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 21:11:34 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 21:11:34 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 21:11:34 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 21:11:39 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 21:13:35 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 21:13:35 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 21:13:36 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 21:13:36 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 21:14:53 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 21:34:13 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 21:34:13 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 21:34:13 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 21:34:13 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 21:38:00 America/Sao_Paulo] PHP Notice:  Failed to load response into DOM: DOMDocument::loadXML(): Empty string supplied as input in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 251
+[22-Jul-2016 21:38:00 America/Sao_Paulo] PHP Notice:  Failed to load response into DOM: DOMDocument::loadXML(): Empty string supplied as input in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 348
+[22-Jul-2016 21:38:00 America/Sao_Paulo] PHP Notice:  Failed to load response into DOM: DOMDocument::loadXML(): Empty string supplied as input in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 366
+[22-Jul-2016 21:38:00 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:178
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(178): SoapClient->__doRequest('<?xml version="...', 'https://adwords...', '', 1)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(72): AdsSoapClient->__doRequest('<?xml version="...', 'https://adwords...', '', 1)
+#2 [internal function]: AdWordsSoapClient->__doRequest('<?xml version="...', 'https://adwords...', '', 1, 0)
+#3 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#4 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#5 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClien in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 178
+[22-Jul-2016 21:38:39 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 21:38:39 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 21:38:39 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 21:38:39 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 21:40:21 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[22-Jul-2016 21:41:48 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[22-Jul-2016 21:41:48 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[22-Jul-2016 21:41:48 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[22-Jul-2016 21:41:48 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[22-Jul-2016 21:42:42 America/Sao_Paulo] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl' : failed to load external entity "https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl"
+ in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 154
+[22-Jul-2016 21:42:42 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl' : failed to load external entity "https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl"
+ in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:154
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(154): SoapClient->SoapClient('https://adwords...', Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(51): AdsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'ManagedCustomer...', 'https://adwords...')
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4558): AdWordsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'ManagedCustomer...', 'https://adwords...')
+#3 /home/clinks/public_html/relatorio/src/Google/A in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 154
+[23-Jul-2016 10:30:07 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 10:30:07 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 10:30:07 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 10:30:07 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 10:30:25 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[23-Jul-2016 10:33:58 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 10:33:58 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 10:33:58 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 10:33:58 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 10:34:20 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[23-Jul-2016 10:37:15 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 10:37:15 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 10:37:15 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 10:37:15 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 10:37:32 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[23-Jul-2016 10:39:27 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 10:39:27 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 10:39:27 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 10:39:27 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 10:41:08 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[23-Jul-2016 10:42:44 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 10:42:44 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 10:42:44 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 10:42:44 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 10:43:27 America/Sao_Paulo] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl' : failed to load external entity "https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl"
+ in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 154
+[23-Jul-2016 10:43:27 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl' : failed to load external entity "https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl"
+ in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:154
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(154): SoapClient->SoapClient('https://adwords...', Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(51): AdsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'ManagedCustomer...', 'https://adwords...')
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4558): AdWordsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'ManagedCustomer...', 'https://adwords...')
+#3 /home/clinks/public_html/relatorio/src/Google/A in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 154
+[23-Jul-2016 10:44:07 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 10:44:07 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 10:44:07 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 10:44:07 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 10:44:24 America/Sao_Paulo] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl' : failed to load external entity "https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl"
+ in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 154
+[23-Jul-2016 10:44:24 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl' : failed to load external entity "https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl"
+ in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:154
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(154): SoapClient->SoapClient('https://adwords...', Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(51): AdsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'ManagedCustomer...', 'https://adwords...')
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4558): AdWordsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'ManagedCustomer...', 'https://adwords...')
+#3 /home/clinks/public_html/relatorio/src/Google/A in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 154
+[23-Jul-2016 10:45:10 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 10:45:10 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 10:45:10 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 10:45:10 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 10:46:46 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[23-Jul-2016 10:48:12 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 10:48:12 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 10:48:12 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 10:48:12 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 10:48:16 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[23-Jul-2016 10:48:46 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 10:48:46 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 10:48:46 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 10:48:46 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 10:51:25 America/Sao_Paulo] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl' : failed to load external entity "https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl"
+ in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 154
+[23-Jul-2016 10:51:25 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl' : failed to load external entity "https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl"
+ in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:154
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(154): SoapClient->SoapClient('https://adwords...', Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(51): AdsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'ManagedCustomer...', 'https://adwords...')
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4558): AdWordsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'ManagedCustomer...', 'https://adwords...')
+#3 /home/clinks/public_html/relatorio/src/Google/A in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 154
+[23-Jul-2016 10:51:31 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 10:51:31 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 10:51:31 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 10:51:31 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 10:51:43 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[23-Jul-2016 10:53:37 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 10:53:37 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 10:53:37 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 10:53:37 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 10:53:41 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[23-Jul-2016 23:10:27 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 23:10:27 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 23:10:27 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 23:10:27 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 23:10:31 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[23-Jul-2016 23:10:54 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 23:10:54 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 23:10:54 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 23:10:54 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 23:10:58 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[23-Jul-2016 23:11:28 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 23:11:28 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 23:11:28 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 23:11:28 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 23:11:32 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[23-Jul-2016 23:11:48 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 23:11:48 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 23:11:48 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 23:11:48 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 23:11:52 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[23-Jul-2016 23:12:15 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 23:12:15 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 23:12:15 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 23:12:15 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 23:12:19 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[23-Jul-2016 23:12:36 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 23:12:36 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 23:12:36 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 23:12:36 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 23:12:40 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[23-Jul-2016 23:14:05 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 23:14:05 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 23:14:05 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 23:14:05 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 23:14:09 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[23-Jul-2016 23:14:27 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[23-Jul-2016 23:14:27 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[23-Jul-2016 23:14:27 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[23-Jul-2016 23:14:27 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[23-Jul-2016 23:14:31 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[24-Jul-2016 01:09:06 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[24-Jul-2016 01:09:06 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[24-Jul-2016 01:09:06 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[24-Jul-2016 01:09:06 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[24-Jul-2016 01:09:13 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[24-Jul-2016 01:09:23 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[24-Jul-2016 01:09:23 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[24-Jul-2016 01:09:23 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[24-Jul-2016 01:09:23 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[24-Jul-2016 01:09:30 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[24-Jul-2016 01:09:41 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[24-Jul-2016 01:09:41 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[24-Jul-2016 01:09:41 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[24-Jul-2016 01:09:41 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[24-Jul-2016 01:09:48 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[24-Jul-2016 01:11:28 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[24-Jul-2016 01:11:28 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[24-Jul-2016 01:11:28 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[24-Jul-2016 01:11:28 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[24-Jul-2016 01:11:35 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[24-Jul-2016 10:59:32 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[24-Jul-2016 13:29:05 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[24-Jul-2016 13:29:05 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[24-Jul-2016 13:29:05 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[24-Jul-2016 13:29:05 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[24-Jul-2016 13:29:12 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[24-Jul-2016 13:29:22 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[24-Jul-2016 13:29:22 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[24-Jul-2016 13:29:22 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[24-Jul-2016 13:29:22 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[24-Jul-2016 13:29:29 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[24-Jul-2016 13:29:40 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[24-Jul-2016 13:29:40 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[24-Jul-2016 13:29:40 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[24-Jul-2016 13:29:40 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[24-Jul-2016 13:29:46 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[24-Jul-2016 13:31:27 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[24-Jul-2016 13:31:27 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[24-Jul-2016 13:31:27 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[24-Jul-2016 13:31:27 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[24-Jul-2016 13:31:33 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[25-Jul-2016 02:24:25 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[25-Jul-2016 02:24:25 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[25-Jul-2016 02:24:25 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 02:24:25 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[25-Jul-2016 02:24:32 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[25-Jul-2016 02:24:42 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[25-Jul-2016 02:24:42 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[25-Jul-2016 02:24:42 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 02:24:42 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[25-Jul-2016 02:24:49 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[25-Jul-2016 02:25:00 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[25-Jul-2016 02:25:00 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[25-Jul-2016 02:25:00 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 02:25:00 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[25-Jul-2016 02:25:06 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[25-Jul-2016 02:26:48 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[25-Jul-2016 02:26:48 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[25-Jul-2016 02:26:48 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 02:26:48 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[25-Jul-2016 02:26:54 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(30): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[25-Jul-2016 08:22:23 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 08:59:04 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 09:18:37 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 09:23:59 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 09:35:06 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:04:54 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:05:04 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:05:29 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:08:59 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:10:42 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:13:02 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:16:50 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:17:16 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:20:27 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:44:40 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:45:25 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:46:08 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:49:24 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:57:22 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:58:02 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:58:45 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 10:59:42 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 11:05:10 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 11:09:18 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 11:25:19 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 11:26:52 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 11:29:52 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 11:30:26 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 11:50:14 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 11:50:34 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 11:51:59 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:09:08 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:12:46 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:13:05 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:13:56 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:15:46 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:16:09 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [InternalApiError.UNEXPECTED_INTERNAL_API_ERROR @ com.google.ads.api.services.common.error.InternalApiError.<init>(InternalApiErro] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts('3327192772')
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/h in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[25-Jul-2016 14:16:09 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:16:34 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [InternalApiError.UNEXPECTED_INTERNAL_API_ERROR @ com.google.ads.api.services.common.error.InternalApiError.<init>(InternalApiErro] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts('3327192772')
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(5): include('/h in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[25-Jul-2016 14:17:10 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:17:25 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:19:19 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:20:58 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:23:37 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:25:51 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:25:55 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:27:12 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:29:30 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:30:37 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:39:06 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:39:39 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:39:59 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:43:09 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:46:50 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:47:35 America/Sao_Paulo] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl' : failed to load external entity "https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl"
+ in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 154
+[25-Jul-2016 14:47:35 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl' : failed to load external entity "https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl"
+ in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:154
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(154): SoapClient->SoapClient('https://adwords...', Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(51): AdsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'ManagedCustomer...', 'https://adwords...')
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4558): AdWordsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'ManagedCustomer...', 'https://adwords...')
+#3 /home/clinks/public_html/relatorio/src/Google/A in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 154
+[25-Jul-2016 14:47:40 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:48:57 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'OAuth2Exception' with message 'Could not resolve host: accounts.google.com' in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Util/SimpleOAuth2Handler.php:116
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Util/SimpleOAuth2Handler.php(96): SimpleOAuth2Handler->MakeRequest('https://account...', Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Util/OAuth2Handler.php(116): SimpleOAuth2Handler->RefreshAccessToken(Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(452): OAuth2Handler->GetOrRefreshAccessToken(Array)
+#3 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(199): AdsSoapClient->GenerateHttpHeaders()
+#4 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#5 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsS in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Util/SimpleOAuth2Handler.php on line 116
+[25-Jul-2016 14:48:57 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:49:47 America/Sao_Paulo] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl' : failed to load external entity "https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl"
+ in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 154
+[25-Jul-2016 14:49:47 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl' : failed to load external entity "https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl"
+ in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:154
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(154): SoapClient->SoapClient('https://adwords...', Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(51): AdsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'ManagedCustomer...', 'https://adwords...')
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4558): AdWordsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'ManagedCustomer...', 'https://adwords...')
+#3 /home/clinks/public_html/relatorio/src/Google/A in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 154
+[25-Jul-2016 14:49:47 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:50:12 America/Sao_Paulo] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl' : failed to load external entity "https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl"
+ in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 154
+[25-Jul-2016 14:50:12 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl' : failed to load external entity "https://adwords.google.com/api/adwords/mcm/v201605/ManagedCustomerService?wsdl"
+ in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:154
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(154): SoapClient->SoapClient('https://adwords...', Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(51): AdsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'ManagedCustomer...', 'https://adwords...')
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4558): AdWordsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'ManagedCustomer...', 'https://adwords...')
+#3 /home/clinks/public_html/relatorio/src/Google/A in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 154
+[25-Jul-2016 14:50:12 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:50:16 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:50:21 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:50:25 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:50:30 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:50:57 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:53:04 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 14:54:35 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:01:25 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:03:17 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:03:30 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:04:38 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:05:16 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:05:22 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:06:34 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:08:15 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:11:02 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[25-Jul-2016 15:11:02 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[25-Jul-2016 15:11:02 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:11:02 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[25-Jul-2016 15:11:06 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(6): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[25-Jul-2016 15:11:16 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[25-Jul-2016 15:11:16 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[25-Jul-2016 15:11:16 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:11:16 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[25-Jul-2016 15:11:20 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(6): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[25-Jul-2016 15:11:30 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[25-Jul-2016 15:11:30 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[25-Jul-2016 15:11:30 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:11:30 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[25-Jul-2016 15:11:34 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(6): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[25-Jul-2016 15:13:16 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[25-Jul-2016 15:13:16 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[25-Jul-2016 15:13:16 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:13:16 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[25-Jul-2016 15:13:20 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(6): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[25-Jul-2016 15:16:35 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:16:52 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:16:57 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:23:59 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:24:52 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:25:35 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:25:54 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:28:01 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:28:06 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:28:28 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:30:25 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:31:36 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:32:03 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:33:15 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:35:25 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:35:49 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:39:07 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:39:27 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:51:07 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 15:51:31 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:06:08 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:06:18 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:06:37 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:08:03 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:19:27 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:21:25 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:21:44 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:22:25 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:22:59 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:23:37 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:23:58 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:25:08 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:28:23 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:34:28 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:44:48 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:46:48 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:47:04 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:51:28 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:53:11 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 16:53:42 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 17:05:30 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 18:53:36 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[25-Jul-2016 22:54:24 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 03:31:51 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[26-Jul-2016 03:31:51 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[26-Jul-2016 03:31:51 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 03:31:51 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[26-Jul-2016 03:31:55 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(7): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[26-Jul-2016 03:32:05 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[26-Jul-2016 03:32:05 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[26-Jul-2016 03:32:05 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 03:32:05 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[26-Jul-2016 03:32:09 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(7): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[26-Jul-2016 03:32:30 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[26-Jul-2016 03:32:30 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[26-Jul-2016 03:32:30 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 03:32:30 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[26-Jul-2016 03:32:34 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(7): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[26-Jul-2016 03:34:15 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 6
+[26-Jul-2016 03:34:15 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[26-Jul-2016 03:34:15 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 03:34:15 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[26-Jul-2016 03:34:19 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(7): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[26-Jul-2016 09:00:19 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 10:40:26 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 10:57:47 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 10:58:23 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 10:59:23 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:04:53 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:06:24 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:08:01 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:09:18 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:10:56 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:13:43 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:16:42 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:18:20 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:19:10 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:21:56 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:36:27 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:38:33 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:41:11 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:44:15 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:50:18 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:52:16 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:53:45 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:55:25 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:56:06 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:56:42 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:57:16 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:58:47 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 11:59:24 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 12:00:16 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 12:04:38 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 15:18:10 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 15:18:41 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 15:19:00 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 15:19:35 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 15:20:27 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 15:20:43 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 15:22:02 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 15:31:08 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 15:49:02 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 15:53:20 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 15:59:16 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:03:34 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:05:43 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:05:53 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:07:15 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:07:31 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:08:58 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:11:23 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:11:48 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:18:06 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:18:52 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:22:19 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:25:28 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:25:59 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:28:50 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:29:00 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 5
+[26-Jul-2016 16:29:00 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[26-Jul-2016 16:29:00 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:29:00 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[26-Jul-2016 16:29:03 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(7): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[26-Jul-2016 16:29:07 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:29:13 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:29:14 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 5
+[26-Jul-2016 16:29:14 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[26-Jul-2016 16:29:14 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:29:14 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[26-Jul-2016 16:29:17 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(7): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[26-Jul-2016 16:29:28 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 5
+[26-Jul-2016 16:29:28 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[26-Jul-2016 16:29:28 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:29:28 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[26-Jul-2016 16:29:32 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(7): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[26-Jul-2016 16:30:20 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:30:27 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:31:13 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 5
+[26-Jul-2016 16:31:13 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[26-Jul-2016 16:31:13 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:31:13 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[26-Jul-2016 16:31:17 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(7): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[26-Jul-2016 16:32:24 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:32:36 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:34:41 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:39:02 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 16:40:25 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 17:49:03 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[26-Jul-2016 18:40:52 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[27-Jul-2016 06:50:39 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 5
+[27-Jul-2016 06:50:39 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[27-Jul-2016 06:50:39 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[27-Jul-2016 06:50:39 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[27-Jul-2016 06:50:44 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(7): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[27-Jul-2016 06:50:54 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 5
+[27-Jul-2016 06:50:54 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[27-Jul-2016 06:50:54 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[27-Jul-2016 06:50:54 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[27-Jul-2016 06:50:58 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(7): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[27-Jul-2016 06:51:08 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 5
+[27-Jul-2016 06:51:08 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[27-Jul-2016 06:51:08 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[27-Jul-2016 06:51:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[27-Jul-2016 06:51:12 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(7): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[27-Jul-2016 06:52:52 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/header.php on line 5
+[27-Jul-2016 06:52:52 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/clinks/public_html/relatorio/sistem/conteudo/content.php on line 20
+[27-Jul-2016 06:52:52 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[27-Jul-2016 06:52:52 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 6
+[27-Jul-2016 06:52:56 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php:216
+Stack trace:
+#0 /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/Lib/AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 /home/clinks/public_html/relatorio/src/Google/Api/Ads/AdWords/v201605/ManagedCustomerService.php(4573): AdWordsSoapClient->__soapCall('get', Array)
+#3 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(31): ManagedCustomerService->get(Object(Selector))
+#4 /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php(6): GetAccounts(NULL)
+#5 /home/clinks/public_html/relatorio/sistem/menus/filtros.php(7): include('/home/clinks/pu...')
+#6 /home/clinks/public_html/relatorio/sistem/co in /home/clinks/public_html/relatorio/src/Google/Api/Ads/Common/Lib/AdsSoapClient.php on line 216
+[27-Jul-2016 08:47:22 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[27-Jul-2016 08:58:50 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[27-Jul-2016 09:16:46 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[27-Jul-2016 09:17:53 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[27-Jul-2016 09:40:08 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4
+[27-Jul-2016 10:51:03 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /home/clinks/public_html/relatorio/sistem/acoes/GetAccountHierarchy.php on line 4

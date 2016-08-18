@@ -1,0 +1,84 @@
+   @page{
+       size: 11.7in 8.3in;
+      margin: 0px;
+   }
+
+@media print {
+
+   .head{
+      display:none;
+   }
+   .col-1{
+      display:none;
+   }
+
+   .col-2{
+      display:none;
+   }
+
+   .col-3{
+      display:block;
+      font-family: "Myriad Pro", "Myriad", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+      -webkit-print-color-adjust: exact;
+   }
+
+   /* capa */
+   .capa{
+      display: block
+      page-break-inside:avoid;
+      width: 100%;
+   }
+
+   .capa img{
+      width: 100%;
+   }
+
+   .border{
+      page-break-inside:avoid;
+      width: 100%;
+   }
+
+   .grafico{
+      margin-top: 10px;
+   }
+
+   .title{
+      width: 100%;
+      min-height: 40px;
+      text-align: center;
+      display:table;
+   }
+
+   .title h1{
+      font-size: 12pt;
+      color: #5b5b5f;
+      display:table-cell;
+      vertical-align:middle;
+      background-color: #c2c3c9 !important;
+      background-repeat: no-repeat !important;
+      background-position: right !important;
+      background-size:contain !important;
+      background-image: url('../img/BarraSuperior.png') !important;
+   }
+
+   /*graficos*/
+   .borda{
+      padding: 1cm 1cm 1cm 1cm;
+   }
+
+   .borda div{
+      margin: 5px auto 2px auto;
+   }
+
+   .borda h5{
+      font-size: 12pt;
+      color: #5b5b5f;
+      display: block;
+      text-align: center;
+   }
+
+   /*rodapé*/
+   .foot{
+      visibility: visible;
+   }
+}

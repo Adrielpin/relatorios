@@ -1,0 +1,69 @@
+*{
+	font-family: "Myriad Pro", "Myriad", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+	font-size: 12pt;
+}
+
+body{
+	width: auto;
+	height: auto;
+	overflow: hidden
+}
+
+.corp{
+	margin-top: 98px;
+	width: 100%;
+	height: 600px;
+	
+}
+
+img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+input[type=Email],input[type=password]{
+	border:solid;
+	border-width: 1px;
+	border-color: #9a999e;
+	text-align: center;
+	font-size: 1.5em;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	width: 300px;
+	height: 42px;
+	background-color: #e2e4e7;
+}
+
+input[type=submit]{
+	border:none;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	color:white;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	width: 110px;
+	height: 33px;
+	background-color: #009245;
+}
+
+.sim{
+	color: white;
+	font-weight: bold;
+	background-color: #3861A4;
+	width: 39px;
+	height: 16px;
+	border:none;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+p{
+	color:#87868a;
+	font-size: 1em;
+}
+
+/*87868a*/

@@ -1,0 +1,113 @@
+.footer button{
+  border:none;
+  width: 100%;
+  color:white;
+  font-weight: bold;
+}
+
+.button-action{
+  height: 20px;
+  margin-bottom: 7px;
+  font-size: 0.7em;
+  background-color: #3861A4;
+} 
+
+.button-action:hover{
+  height: 20px;
+  margin-bottom: 7px;
+  font-size: 0.7em;
+  background-color: #30528A;
+}
+
+.button-action:active{
+  height: 20px;
+  margin-bottom: 7px;
+  font-size: 0.7em;
+  background-color: #284779;
+}
+
+.button-go{
+  margin-left: 7px;
+  height: 74px;
+  background-color: #009245;
+}
+
+.button-go:hover{
+  margin-left: 7px;
+  height: 74px;
+  background-color: #1B7F3C;
+}
+
+.button-go:active{
+  margin-left: 7px;
+  height: 74px;
+  background-color: #156937;
+}
+
+.button-proj{
+  background-color: #00A99D;
+  font-size: 0.7em;
+  height: 20px;
+}
+
+.button-proj:hover{
+  background-color: #026671;
+  font-size: 0.7em;
+  height: 20px;
+}
+
+.button-proj:active{
+  background-color: #005A63;
+  font-size: 0.7em;
+  height: 20px;
+}
+
+.button-Des{
+  background-color: #3861A4;
+  font-size: 0.7em;
+  margin-top: 7px;
+  height: 20px;
+}
+
+.button-Des:hover{
+  background-color: #30528A;
+  font-size: 0.7em;
+  margin-top: 7px;
+  height: 20px;
+}
+
+.button-Des:active{
+  background-color: #284779;
+  font-size: 0.7em;
+  margin-top: 7px;
+  height: 20px;
+}
+
+.button-print{
+  background-color: #F15A24;
+  font-size: 0.7em;
+  margin-top: 7px;
+  height: 20px;
+}
+
+.button-print:hover{
+  background-color: #B35031;
+  font-size: 0.7em;
+  margin-top: 7px;
+  height: 20px;
+}
+
+.button-print:active{
+  background-color: #88422A;
+  font-size: 0.7em;
+  margin-top: 7px;
+  height: 20px;
+}
+
+.usuarios_filtro button, input[type=submit]{
+  width: 180px;
+  margin: 7px auto 0 auto;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
